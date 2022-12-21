@@ -18,6 +18,27 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+
+            .post_wrapper{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .post{
+                max-width: 350px;
+                border-radius: 13px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 12px;
+                margin: 15px;
+            }
+
+            .post img{
+                width: 100%;
+                object-fit: contain;
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -33,7 +54,7 @@
                         @else
                             <img src="{{$post['media_url']}}">
                         @endif
-                            <p>{{$post['caption']}}</p>
+                            <p>{{$post['caption'] ?? ''}}</p>
                     </div>
                 @empty
                     
