@@ -1,4 +1,4 @@
-## Test technique 
+# Test technique 
 
 L'objectif : créer un système de récupération automatique des posts d'une page Instagram. 
 
@@ -8,10 +8,19 @@ Consignes :
 - Nous nous concentrons ici surtout sur l'aspect back-end. 
 - Il n'est évidemment pas nécessaire que ce soit ta propre page Instagram, tu peux prendre n'importe quelle page. 
 
-# Project setup
+- - - - -
 
-- Git Clone 
-- Composer install
+## Project setup
+
+1/ Git Clone 
+2/ Composer install
+
+## additional information
+
+For this test I created an app inside developers.facebook.com and used instagram's API Basic Display instead of API Graph because
+the context (the instructions) are more appropriate. On the other hand, in the case of more advanced development or ajdonctions, the other Api becomes adapted.
+
+This project is in public because I used this project for the insta URI's callbacks : https://audmqx.github.io/bbs_test_technique/
 
 ## License
 
